@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>List of Pokemons</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@1,200&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/"><img src="/logo.png" id="logo" alt="Pokemon Logo"></a>
+    <h1 id="welcome">Welcome Pokemon Trainer</h1>
+    <h2>Choose Your Starter Pokemon:</h2>
+    <ol id="pokemonList">
+        <%- pokemons %>
+    </ol>
+    <%- port %>
+        <input type="radio" id="bulbasaur" value="bulbasaur" name="pick">
+        <input type="radio" id="charmander" value="charmander" name="pick">
+        <input type="radio" id="squirtle" value="squirtle" name="pick">
+        <input type="radio" id="pikachu" value="pikachu" name="pick" checked><br><br>
+        <input type="submit" id="button" value="Ready"/>
+    </form>
+    <script>
+        window.onsubmit = validate;
+        function validate() {
+            const message = "Are you sure about your choice?\nThe Pokemon you picked will become your lifelong companion.";
+            return window.confirm(message);
+        }
+    </script>
+</body>
+
+</html>

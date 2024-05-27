@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    background-color: orangered;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#logo {
+    height: 100px;
+    display: inline;
+}
+
+#welcome {
+    margin-left: 100px;
+}
+
+#main {
+    margin-left: 370px;
+}
+
+#empty {
+    font-size: 25px;
+    position: absolute;
+    right: 530px;
+    top: 480px;
+}
+
+#info {
+    margin-left: 150px;
+}
+
+div {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 540px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    display: inline;
+    margin-left: 150px;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    height: 150px;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 11px;
+    padding: 40px;
+    background-color: whitesmoke;
+    color: rgb(22, 21, 21);
+}
+
+ol {
+    padding-inline-start: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+label {
+    font-size: 30px;
+}
+
+input[type=radio] {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 5px solid black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor:pointer;
+}
+
+input:checked {
+  background: #ffcb05 content-box;
+  border-color: #2a4ea8;
+}
+
+#pikachu {
+    right: 140px;
+}
+
+#squirtle {
+    right: 515px;
+}
+
+#charmander {
+    right: 880px;
+}
+
+#bulbasaur {
+    right: 1260px;
+}
+
+#button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 630px;
+    height: 50px;
+    width: 170px;
+    background: linear-gradient(0deg, orangered 50%, whitesmoke 50%);
+}
+
+#button:hover {
+    transform: scale(1.1);
+}
+
+#list-main {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#button-main {
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffcb05;
+}
+
+#button-main:hover {
+    color: #2a4ea8;
+}
+
+#hp {
+    color: rgb(31, 237, 31);
+}
+
+#attack {
+    color: rgb(4, 184, 244);
+}
+
+#defence {
+    color: rgb(180, 178, 178);
+}
+
+#speed {
+    color: gold;
+}
+
+#card-image {
+    margin-left: 20px;
+}
+
+#card-name {
+    margin-left: 15px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+#card-line {
+    margin-top: 0px;
+}
+
+#card {
+    background-color: orangered;
+    margin-top: 10px;
+    height: 380px;
+    width: 210px;
+}
